@@ -1,0 +1,17 @@
+{
+  "name": "contextual-logging-nodejs",
+  "version": "1.0.0",
+  "description": "Contextual logging in Node.js with Pino and AsyncLocalStorage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Maxim Orlov <maximorl@gmail.com> (https://github.com/Maximization)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pino": "^6.10.0",
+    "uuid": "^8.3.2"
+  }
+}
