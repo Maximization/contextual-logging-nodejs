@@ -1,5 +1,7 @@
 # Contextual Logging in Node.js
 
+For a detailed explanation of the concepts used in this repository, read the accompanying article: [Logging with Pino and AsyncLocalStorage in Node.js](https://maximorlov.com/logging-with-pino-and-asynclocalstorage-in-nodejs/).
+
 An example Node.js (Express) application that implements contextual logging by attaching a request ID to every log line. It uses [AsyncLocalStorage](https://nodejs.org/api/async_hooks.html#async_hooks_class_asynclocalstorage) together with [Pino](https://github.com/pinojs/pino).
 
 ## Getting started
